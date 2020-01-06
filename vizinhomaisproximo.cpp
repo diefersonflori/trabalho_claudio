@@ -39,7 +39,7 @@ int main()
 	argv[1] = "./instancias/att48.tsp_5_1001_1001_2.txt";
 
 	int numero_de_threads = 5;
-	int numero_de_interacoes_total = 20;
+	int numero_de_interacoes_total = 1;
 
 	// obter numero de visitas totas
 
