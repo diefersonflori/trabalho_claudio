@@ -857,9 +857,9 @@ int perturbacao_familia(std::vector<cidade>& cidades, std::vector<truck>& caminh
 	std::vector <cidade> cidades_aux;
 	std::vector <int> adicionados;
 	std::vector <truck> caminhoes_aux;
-	int interacoes_perturbacao = 9000;
-	int reordena = 300; //(ww)
-	int reordenass = 28; //(ss)->dentro de ww
+	int interacoes_perturbacao = 900;
+	int reordena = 30; //(ww)
+	int reordenass = 8; //(ss)->dentro de ww
 	// local search
 	for ( aa = 0; aa <= 10; aa++)
 	{ // fa�o 10 vezes o local search
